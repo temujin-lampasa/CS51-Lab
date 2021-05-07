@@ -7,6 +7,10 @@ int multiply(int a, int b){
     int ret = 0;
     bool b_is_neg = b < 0;
 
+    if (a==0 or b==0){
+        return 0;
+    }
+    
     if (b_is_neg) {
         b = ~b + 1;
     }
