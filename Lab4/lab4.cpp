@@ -35,10 +35,9 @@ int main(){
             int a = a_test[i];
             int b = b_test[i];
             int ret = multiply(a, b);
-            bool pass = (ret == a * b);
             // https://stackoverflow.com/questions/667183/padding-stl-strings-in-c
             cout << setw(2) << a << " * " << setw(2) << b << " = " << setw(2) << ret << endl;
-            if (multiply(a, b) != a*b) {
+            if (ret != a*b) {
                 throw exception();
             }
         }
