@@ -26,7 +26,6 @@ struct Point3D{
 
 
 int main(){
-    
     Point3D last_point(0, 0, 0);
     int n_test, n_lines;
     cin >> n_test;
