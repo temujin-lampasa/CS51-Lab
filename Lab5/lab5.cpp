@@ -36,7 +36,7 @@ int main(){
             cin >> x >> y >> z;
             Point3D temp(x, y, z);
             if (j!=0){
-                cout << temp.l1norm(&last_point) << endl;
+                cout << last_point.l1norm(&temp) << endl;
             }
             last_point = temp;
         }
