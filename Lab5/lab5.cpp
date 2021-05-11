@@ -20,7 +20,7 @@ struct Point3D{
     }
 
     int l1norm(Point3D *p){
-        return abs(p->x - this->x) + abs(p->y - this->y) + abs(p->z - this->z);
+        return abs(x - p->x) + abs(y - p->y) + abs(z - p->z);
     }
 };
 
