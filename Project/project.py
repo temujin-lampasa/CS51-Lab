@@ -19,7 +19,7 @@ class Scheduler:
         self.process_list.append(p)
     
     def schedule(self):
-        self.process_list = deque(sorted(process_list))
+        self.process_list = deque(sorted(self.process_list))
         output = self.algorithm()
     
     def FCFS(self):
