@@ -28,7 +28,7 @@ int main(){
                 cout << "\"This program has gone on for far too long. Type Ctrl+C to abort this timer application.\"" << endl;
                 count = 0;
             }
-            sleep(3);
+            sleep(10);
         }
     }
 }
